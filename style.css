@@ -1,0 +1,70 @@
+@font-face 
+{
+    font-family: 'No. Seven Regular';
+    src: url('font/NoSevenRegular.eot');
+    src: url('font/NoSevenRegular.eot?#iefix') format('embedded-opentype'),
+    url('font/NoSevenRegular.woff') format('woff'),
+    url('font/NoSevenRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav
+{
+    width:100%;
+    background-color: #151B36;
+    height: 150px;
+}
+
+nav .container
+{
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo
+{
+    font-family: 'No. Seven Regular';
+    font-size: 2.2em;
+    color: white;
+    font-weight: 400;
+}
+
+nav .container ul
+{
+    display:flex;
+    list-style: none;
+}
+
+nav .container ul a
+{
+    text-decoration: none;
+}
+
+nav .container ul a li
+{
+    padding-left: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(247, 242, 242);
+}
+
+nav .container ul a li:hover
+{
+    color: #EC6834;
+}
+
