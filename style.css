@@ -16,8 +16,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: rgb(247, 242, 242);
 }
 
+.container
+{
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NAVBAR */
 
 nav
 {
@@ -26,21 +38,10 @@ nav
     height: 150px;
 }
 
-nav .container
-{
-    width: 1500px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 nav .logo
 {
     font-family: 'No. Seven Regular';
     font-size: 2.2em;
-    color: white;
     font-weight: 400;
 }
 
@@ -60,7 +61,6 @@ nav .container ul a li
     padding-left: 40px;
     font-size: 22px;
     font-weight: 600;
-    color: rgb(247, 242, 242);
 }
 
 nav .container ul a li:hover
@@ -68,3 +68,55 @@ nav .container ul a li:hover
     color: #EC6834;
 }
 
+
+/* HERO-BANNER */
+
+.hero-banner
+{
+    background-color: #151B36;
+}
+
+.hero-banner .container
+{
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.hero-banner .container .presentation-arnaud
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-banner .container .presentation-arnaud h1
+{
+    font-weight: 700;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-banner .container .presentation-arnaud h2
+{
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.hero-banner .container .presentation-arnaud button
+{
+    background-color: #EC6834;
+    border: none;
+    border-radius: 7px;
+    width: 230px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.hero-banner .container img
+{
+    width: 21%;
+    border-radius: 50%;
+}
