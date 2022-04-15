@@ -245,6 +245,48 @@ nav .container ul a li:hover
     padding-bottom: 15px;
 }
 
+/* SECTION COMPETENCES */
+
+#competences
+{
+    background-color: #151B36;
+}
+
+#competences .container
+{    
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 200px;
+}
+
+#competences .container h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#competences .container h1::after
+{
+    display: block;
+    content : "";
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #EC6834;
+    margin: 15px 0 40px 0;
+}
+
+#competences .container .card-tableau
+{
+    width: 80%;
+    background-color: rgb(247, 242, 242);
+    margin: 25px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
 
 
 
