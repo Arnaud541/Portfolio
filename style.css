@@ -17,6 +17,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: rgb(247, 242, 242);
+    list-style: none;
+    text-decoration: none;
+}
+
+i
+{
+    font-size: 3em;
+    color: #EC6834;
+    margin-bottom: 10px;
 }
 
 .container
@@ -27,6 +36,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#bts-sio .container h2
+{
+    font-weight: 600;
+    margin-top: 50px;
 }
 
 /* NAVBAR */
@@ -47,19 +62,13 @@ nav .logo
 
 nav .container ul
 {
-    display:flex;
-    list-style: none;
-}
-
-nav .container ul a
-{
-    text-decoration: none;
+    display: flex;
 }
 
 nav .container ul a li
 {
     padding-left: 40px;
-    font-size: 22px;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
@@ -120,3 +129,122 @@ nav .container ul a li:hover
     width: 21%;
     border-radius: 50%;
 }
+
+/* SECTION BTS-SIO */
+
+#bts-sio
+{
+    background-color: #151B36;
+}
+
+#bts-sio .container
+{
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 200px;
+}
+
+#bts-sio .container .test
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#bts-sio .container .test h1
+{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+#bts-sio .container .test h1::after
+{
+    display: block;
+    content : "";
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #EC6834;
+    margin: 15px 0 40px 0;
+
+}
+
+#bts-sio .container .test p
+{
+    width: 750px;
+}
+
+#bts-sio .container .specialites
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#bts-sio .container .specialites div[class^="specialite-"]
+{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 242, 242);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+#bts-sio .container .specialites div[class^="specialite-"] i
+{
+    font-size: 3em;
+    color: #EC6834;
+    margin-bottom: 10px;
+}
+
+#bts-sio .container .specialites div[class^="specialite-"] h3
+{
+    color: #171515;
+    margin-bottom: 50px;
+}
+
+#bts-sio .container .specialites div[class^="specialite-"] p
+{
+    color: #171515;
+    text-align: center;
+    font-weight: 600;
+}
+
+#bts-sio .container .enseignements
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#bts-sio .container .enseignements div[class^="enseignement-"]
+{
+    width: 400px;
+    background-color:rgb(247, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+#bts-sio .container .enseignements div[class^="enseignement-"] h3
+{
+    color:#171515;
+    margin-bottom: 45px;
+    font-size: 1.35em;
+}
+
+#bts-sio .container .enseignements div[class^="enseignement-"] ul li
+{
+    color: #171515;
+    padding-bottom: 15px;
+}
+
+
+
+
