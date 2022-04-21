@@ -21,6 +21,11 @@
     text-decoration: none;
 }
 
+body
+{
+    background-color: #151B36;
+}
+
 i
 {
     font-size: 3em;
@@ -49,7 +54,6 @@ i
 nav
 {
     width:100%;
-    background-color: #151B36;
     height: 150px;
 }
 
@@ -79,11 +83,6 @@ nav .container ul a li:hover
 
 
 /* HERO-BANNER */
-
-.hero-banner
-{
-    background-color: #151B36;
-}
 
 .hero-banner .container
 {
@@ -131,11 +130,6 @@ nav .container ul a li:hover
 }
 
 /* SECTION BTS-SIO */
-
-#bts-sio
-{
-    background-color: #151B36;
-}
 
 #bts-sio .container
 {
@@ -189,15 +183,8 @@ nav .container ul a li:hover
     align-items: center;
     flex-direction: column;
     background-color: rgb(247, 242, 242);
-    border-radius: 15px;
+    border-radius: 35px;
     padding: 40px;
-}
-
-#bts-sio .container .specialites div[class^="specialite-"] i
-{
-    font-size: 3em;
-    color: #EC6834;
-    margin-bottom: 10px;
 }
 
 #bts-sio .container .specialites div[class^="specialite-"] h3
@@ -228,7 +215,7 @@ nav .container ul a li:hover
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 35px;
     padding: 40px;
 }
 
@@ -246,11 +233,6 @@ nav .container ul a li:hover
 }
 
 /* SECTION COMPETENCES */
-
-#competences
-{
-    background-color: #151B36;
-}
 
 #competences .container
 {    
@@ -284,6 +266,131 @@ nav .container ul a li:hover
     border-radius: 15px;
     padding: 20px;
 }
+
+
+/* SECTION VEILLE TECHNOLOGIQUE */
+
+#veille-techno .container
+{
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 200px;
+}
+
+#veille-techno .container h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#veille-techno .container h1::after
+{
+    display: block;
+    content : "";
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #EC6834;
+    margin: 15px 0 40px 0;
+}
+
+#veille-techno .container h2
+{
+    font-weight: 600;
+    text-decoration-line: underline;
+    margin-bottom: 50px;
+}
+
+#veille-techno .container p
+{
+    width: 600px;
+    font-size: 1.15em;
+}
+
+#veille-techno .container .veille
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+
+#veille-techno .container .veille .card-veille
+{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 242, 242);
+    border-radius: 35px;
+    padding: 40px;
+    margin-top: 65px;
+    
+}
+
+#veille-techno .container .veille .card-veille .fa-brands
+{
+    font-size: 6em;
+    margin-bottom: 30px;
+}
+
+#veille-techno .container .veille .card-veille h2
+{
+    color: #171515;
+    font-size: 2.3em;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+#veille-techno .container .veille .source-veille
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+#veille-techno .container .veille .source-veille h2
+{
+    align-self: center;
+    font-size: 1.8em;
+    text-decoration-line: none;
+}
+
+#veille-techno .container .veille .source-veille .source-veille-cours
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+#veille-techno .container .veille .source-veille .source-veille-cours img
+{
+    width: 30%;
+    border: 8px solid #fff;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+#veille-techno .container .veille .source-veille .source-veille-doc
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+#veille-techno .container .veille .source-veille .source-veille-doc img
+{
+    width: 30%;
+    border: 8px solid #fff;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+
 
 
 
