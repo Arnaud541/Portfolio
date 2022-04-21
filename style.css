@@ -127,6 +127,7 @@ nav .container ul a li:hover
 {
     width: 21%;
     border-radius: 50%;
+    filter: brightness(80%);
 }
 
 /* SECTION BTS-SIO */
@@ -390,6 +391,127 @@ nav .container ul a li:hover
     margin-right: 30px;
 }
 
+/* SECTION STAGES */
+
+#stages .container
+{
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 200px;
+}
+
+#stages .container h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#stages .container h1::after
+{
+    display: block;
+    content : "";
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #EC6834;
+    margin: 15px 0 75px 0;
+}
+
+#stages .container .stage-1
+{
+    border-radius: 35px;
+    background: white;
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    height: 625px;
+    margin-bottom: 150px;
+}
+
+#stages .container .stage-1 h2
+{
+    color: #121212;
+    text-align: center;
+    margin-bottom: 85px;
+    font-size: 2.2em
+}
+
+#stages .container .stage-1 .stage-1-description
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stages .container .stage-1 .stage-1-description img
+{
+    width: 360px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#stages .container .stage-1 .stage-1-description ul
+{
+    width: 560px;
+}
+
+#stages .container .stage-1 .stage-1-description ul li
+{
+    color: #121212;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+/* STAGE 2 */
+
+
+#stages .container .stage-2
+{
+    border-radius: 35px;
+    background: white;
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    height: 564px;
+}
+
+#stages .container .stage-2 h2
+{
+    color: #121212;
+    text-align: center;
+    margin-bottom: 85px;
+    font-size: 2.2em
+}
+
+#stages .container .stage-2 .stage-2-description
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stages .container .stage-2 .stage-2-description img
+{
+    width: 360px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#stages .container .stage-2 .stage-2-description ul
+{
+    width: 560px;
+}
+
+#stages .container .stage-2 .stage-2-description ul li
+{
+    color: #121212;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
 
 
 
