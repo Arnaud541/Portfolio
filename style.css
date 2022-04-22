@@ -563,8 +563,82 @@ nav .container ul a li:hover
     padding-bottom: 40px;
 }
 
+/* SECTION PPE */
 
 
+#ppe .container
+{
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 200px;
+}
+
+#ppe .container h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#ppe .container h1::after
+{
+    display: block;
+    content : "";
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #EC6834;
+    margin: 15px 0 75px 0;
+}
+
+#ppe .container .lesPPE
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#ppe .container .lesPPE div[class^="ppe-"]
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+#ppe .container .lesPPE div[class^="ppe-"] img
+{
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+#ppe .container .lesPPE div[class^="ppe-"] img:hover
+{
+    transform: scale(1.05);
+}
+
+#ppe .container .lesPPE div[class^="ppe-"] h2
+{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+#ppe .container .lesPPE .ppe-1 img
+{
+    width: 55%;
+
+}
+
+#ppe .container .lesPPE .ppe-2 img
+{
+    width: 20%;
+
+}
+
+#ppe .container .lesPPE .ppe-3 img
+{
+    width: 40%;
+
+}
 
 
 
