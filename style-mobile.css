@@ -1,0 +1,198 @@
+@media screen and (max-width: 1550px) {
+    .container
+    {
+        max-width: 1200px;
+    }
+    
+}
+
+@media screen and (max-width: 1250px)
+{
+    .container
+    {
+        max-width: 950px;
+    }
+
+    #stages .container .stage-1
+    {
+        width: 900px;
+    }
+
+    #stages .container .stage-2
+    {
+        width: 900px;
+    }
+
+    #stages .container .stage-1 h2
+    {
+        font-size: 1.8em;
+    }
+
+    #stages .container .stage-2 h2
+    {
+        font-size: 1.8em;
+    }
+
+
+
+    #stages .container .stage-1 .stage-1-description img
+    {
+        width: 280px;
+        height: 85px;
+    }
+
+    #stages .container .stage-2 .stage-2-description img
+    {
+        width: 280px;
+        height: 85px;
+    }
+
+    #stages .container .stage-1 .stage-1-description ul
+    {
+        width: 480px;
+    }
+
+    #stages .container .stage-2 .stage-2-description ul
+    {
+        width: 480px;
+    }
+
+    #stages .container .stage-1 .stage-1-description ul li
+    {
+        font-size: 0.8em;
+    }
+
+    #stages .container .stage-2 .stage-2-description ul li
+    {
+        font-size: 0.8em;
+    }
+
+    #ppe .container .lesPPE div[class^="ppe-"] h2
+    {
+        font-size: 1.05em;
+    }
+}
+
+@media screen and (max-width: 990px)
+{
+    .container
+    {
+        max-width: 700px;
+    }
+
+    nav .container ul a li
+    {
+        font-size: 0.9em;
+
+    }
+
+    nav .logo
+    {
+        font-size: 1.8em;
+    }
+
+    #bts-sio .container .specialites div[class^="specialite-"]
+    {
+        width: 300px;
+        height: 400px;
+    }
+
+    #bts-sio .container .specialites div[class^="specialite-"] p
+    {
+        font-size: 0.8em;
+    }
+
+    #bts-sio .container .enseignements div[class^="enseignement-"]
+    {
+        width: 300px;
+    }
+
+    #veille-techno .container .veille .card-veille
+    {
+        width: 300px;
+    }
+
+    #veille-techno .container .veille .card-veille h2
+    {
+        font-size: 1.8em;
+    }
+
+    /* STAGES */
+
+    #stages .container .stage-1
+    {
+        width: 750px;
+    }
+
+    #stages .container .stage-2
+    {
+        width: 750px;
+    }
+
+    #stages .container .stage-1 h2
+    {
+        font-size: 1.5em;
+    }
+
+    #stages .container .stage-2 h2
+    {
+        font-size: 1.5em;
+    }
+
+    #stages .container .stage-1 .stage-1-description img
+    {
+        width: 240px;
+        height: 70px;
+    }
+
+    #stages .container .stage-2 .stage-2-description img
+    {
+        width: 240px;
+        height: 70px;
+    }
+
+    #stages .container .stage-1 .stage-1-description ul
+    {
+        width: 350px;
+    }
+
+    #stages .container .stage-2 .stage-2-description ul
+    {
+        width: 350px;
+    }
+
+    
+}
+
+@media screen and (max-width: 760px)
+{
+    #bts-sio .container .test p
+    {
+        width: 600px;
+    }
+
+    #stages .container .stage-1
+    {
+        width: 650px;
+    }
+
+    #stages .container .stage-2
+    {
+        width: 650px;
+    }
+
+    #stages .container .stage-1 h2
+    {
+        font-size: 1.2em;
+    }
+
+    #stages .container .stage-2 h2
+    {
+        font-size: 1.2em;
+    }
+
+    #ppe .container .lesPPE div[class^="ppe-"] h2
+    {
+        font-size: 0.7em;
+    }
+}
