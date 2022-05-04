@@ -195,4 +195,77 @@
     {
         font-size: 0.7em;
     }
+
+
+
+
+
+    .hamburger-menu
+    {
+        display: block;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .hamburger-menu i:nth-child(2)
+    {
+        display : none;
+    }
+
+    .hamburger-menu.active i:nth-child(1)
+    {
+        display:none;
+    }
+
+    .hamburger-menu.active i:nth-child(2)
+    {
+        display: inline;
+        position: absolute;
+        top: 36px;
+        right: 22px;
+        font-size: 4em;
+    }
+
+    nav.active
+    {
+        height: 100vh;
+        background-color: orange;
+        z-index: 100;
+        position: relative;
+    }
+
+    nav .container
+    {
+        justify-content: flex-end;
+    }
+
+    nav .container.active
+    {
+        justify-content: center;
+    }
+
+    nav .container .logo
+    {
+        display: none;
+    }
+
+    nav .container ul
+    {
+        display: none;
+    }
+
+    nav .container ul.active
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .container ul.active li
+    {
+        margin: 20px 0;
+        font-size: 2.3em;
+    }
+    
 }
