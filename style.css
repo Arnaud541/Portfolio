@@ -49,17 +49,22 @@ i
     margin-top: 50px;
 }
 
+.hamburger-menu
+{
+    display: none;
+}
+
 /* NAVBAR */
 
 nav
 {
-    width:100%;
+    width: 100%;
     height: 150px;
 }
 
 nav .logo
 {
-    font-family: 'No. Seven Regular';
+    font-family: 'sans-serif','No. Seven Regular';
     font-size: 2.2em;
     font-weight: 400;
 }
